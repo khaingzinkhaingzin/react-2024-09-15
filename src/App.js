@@ -2,6 +2,7 @@ import './App.css';
 import EventBind from './components/EventBind';
 import FunctionClick from './components/FunctionClick';
 import Greet from './components/Greet'
+import NameList from './components/NameList';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 
@@ -23,7 +24,9 @@ function App() {
 
       {/* <ParentComponent /> */}
 
-      <UserGreeting />
+      {/* <UserGreeting /> */}
+
+      <NameList />
     </div>
   );
 }
