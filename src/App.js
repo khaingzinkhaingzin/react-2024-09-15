@@ -1,9 +1,13 @@
 import './App.css';
 import EventBind from './components/EventBind';
+import Form from './components/Form';
 import FunctionClick from './components/FunctionClick';
 import Greet from './components/Greet'
+import Inline from './components/Inline';
+import LifeCycleA from './components/LifeCycleA';
 import NameList from './components/NameList';
 import ParentComponent from './components/ParentComponent';
+import StyleSheet from './components/StyleSheet';
 import UserGreeting from './components/UserGreeting';
 
 function App() {
@@ -26,7 +30,15 @@ function App() {
 
       {/* <UserGreeting /> */}
 
-      <NameList />
+      {/* <NameList /> */}
+
+      {/* <StyleSheet primary={true} /> */}
+
+      {/* <Inline /> */}
+
+      {/* <Form /> */}
+
+      <LifeCycleA />
     </div>
   );
 }
