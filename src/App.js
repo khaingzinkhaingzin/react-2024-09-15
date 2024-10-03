@@ -1,4 +1,5 @@
 import './App.css';
+import ClickCounter from './components/ClickCounter';
 import EventBind from './components/EventBind';
 import FocusInput from './components/FocusInput';
 import Form from './components/Form';
@@ -6,11 +7,13 @@ import FragmentDemo from './components/FragmentDemo';
 import FRParentInput from './components/FRParentInput';
 import FunctionClick from './components/FunctionClick';
 import Greet from './components/Greet'
+import HoverCounter from './components/HoverCounter';
 import Inline from './components/Inline';
 import LifeCycleA from './components/LifeCycleA';
 import NameList from './components/NameList';
 import ParentComp from './components/ParentComp';
 import ParentComponent from './components/ParentComponent';
+import PortalDemo from './components/PortalDemo';
 import PureComp from './components/PureComp';
 import RefsDemo from './components/RefsDemo';
 import StyleSheet from './components/StyleSheet';
@@ -57,7 +60,12 @@ function App() {
 
       {/* <FocusInput /> */}
 
-      <FRParentInput />
+      {/* <FRParentInput /> */}
+
+      {/* <PortalDemo /> */}
+
+      <ClickCounter name='Khaing Thazin' />
+      <HoverCounter />
     </div>
   );
 }
